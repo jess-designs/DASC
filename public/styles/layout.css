@@ -1,0 +1,82 @@
+nav {
+  background-color: white;
+}
+
+.dropdown-toggle {
+  padding-left: 0px;
+}
+
+.dive-flg {
+  padding-bottom: 5px;
+}
+
+body {
+  padding-top: 57px;
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.about div {
+  text-align: justify;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.video-container {
+  padding-bottom: 56.25%;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+footer {
+  padding-top: 50px;
+  color: grey;
+  text-align: center;
+}
+
+.label {
+  height: 2.5rem;
+  display: block;
+  margin: 30px auto 25px;
+}
+
+.img-description {
+  text-align: center;
+  margin: 20px;
+}
+
+.join-img {
+  display: block;
+  margin: auto;
+  width: 85%;
+}
+
+.text-body {
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+
+.big-img {
+  width: 85%;
+  display: block;
+  margin: auto;
+}
+
+.no-padding {
+  padding-left: 0;
+}
+
+.carousel-item {
+  height: 90vh;
+}
+.carousel-inner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
