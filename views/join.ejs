@@ -33,7 +33,20 @@
       the application or mail your application with a check to the address on
       the form.
     </p>
+    <!-- <a href="https://www.paypal.com/ncp/payment/DMYZLZS5BVS8L">
+      Pay for membership
+    </a> -->
+  </div>
+  <div class="pay-div">
+    <script src="https://www.paypal.com/sdk/js?client-id=BAArN618mj3GJeIG1pMR3qGULUrXRDhiy9HXs_HLoUDaKD_d2HP2y3fvK9nTOGaMaT8Zbrca1WpL9c8mNU&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+    <div id="paypal-container-DMYZLZS5BVS8L"></div>
+    <script>
+      paypal
+        .HostedButtons({
+          hostedButtonId: "DMYZLZS5BVS8L",
+        })
+        .render("#paypal-container-DMYZLZS5BVS8L");
+    </script>
   </div>
 </div>
-
 <%- include ("partials/footer.ejs") %>

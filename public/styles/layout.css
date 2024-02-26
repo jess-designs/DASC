@@ -80,3 +80,95 @@ footer {
   height: 100%;
   width: 100%;
 }
+
+.donate {
+  height: 34px;
+  right: 12px;
+  position: relative;
+  border-radius: 25px;
+  border: solid white;
+  margin-top: 4px;
+}
+
+.donate:hover {
+  border: solid #fba834;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.dropdown button:hover {
+  text-decoration: underline;
+}
+
+.dropdown button {
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+  padding-top: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: grey;
+  position: relative;
+  right: 6px;
+}
+
+header {
+  font-family: "Mukta", sans-serif;
+  font-weight: 300;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.current-page {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  font-weight: 300;
+}
+
+.dropdown-item:hover {
+  background-color: white;
+}
+
+.logo {
+  font-family: "Mukta";
+  font-weight: 200;
+  font-size: 1.7rem;
+  font-style: italic;
+  text-align: left;
+}
+
+.pay-div {
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.pay-div > * {
+  font-size: 1rem !important;
+  margin: 0 auto;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .donate {
+    margin-top: 4px;
+  }
+
+  .dropdown button {
+    position: static;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+}
