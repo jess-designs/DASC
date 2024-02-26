@@ -172,3 +172,9 @@ header {
     font-size: 2rem;
   }
 }
+
+@media (max-width: 447px) {
+  .video-container {
+    margin-top: 30px;
+  }
+}
